@@ -44,6 +44,7 @@ a {
   padding-right: 300px;
   padding-top: 80px;
   padding-bottom: 80px;
+  gap: 20px;
 }
   
 h1 {
@@ -133,5 +134,84 @@ h1 {
   text-align: center;
   box-sizing: border-box;
 }
+
+.colordiv2 {
+  background-color: #E5E7EB;
+}
+
+.quotediv {
+  padding: 70px 300px;
+  align-items: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  padding: 70px 400px 0 400px;
+}
+
+.quoteautor {
+  font-weight: bold;
+  font-size: 25px;
+  color: #1F2937;
+  padding: 20px 400px 50px 400px;
+  display: flex;
+  justify-content: end;
+}
+
+
+
+.actiondiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 150px;
+  margin: 70px 300px;
+  background-color: #3882F6;
+  border: none;
+  border-radius: 12px;
+  gap: 20px;
+  
+}
+
+.call {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.button2div {
+  display: flex;
+  align-items: center;
+}
+
+.call1 {
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.call2 {
+  font-size: 20px;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.button2 {
+  background-color: transparent;
+  border: solid white;
+  border-radius: 6px;
+  width: 150px;
+  height: 40px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
 
 
