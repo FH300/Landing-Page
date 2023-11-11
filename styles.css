@@ -89,6 +89,49 @@ h1 {
 
 }
 
+.secdiv {
+  padding: 50px 300px;
+  align-items: center;
+  
+}
 
+.randominfo {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: bold;
+  text-align: center;
+}
+
+.windowdiv1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  gap: 50px;
+}
+
+.window {
+  border: solid #3882F6;
+  border-radius: 12px;
+  width: 170px;
+  height: 170px;
+  box-sizing: border-box;
+}
+
+
+.windowfull {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 170px;
+  height: 198px;
+  box-sizing: border-box;
+  color: #1F2937;
+}
+
+.windowtext {
+  text-align: center;
+  box-sizing: border-box;
+}
 
 
