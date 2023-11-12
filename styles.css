@@ -112,7 +112,6 @@ h1 {
 }
 
 .window {
-  border: solid #3882F6;
   border-radius: 12px;
   width: 170px;
   height: 170px;
@@ -165,9 +164,10 @@ h1 {
 .actiondiv {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 50px 150px;
   margin: 70px 300px;
-  background-color: #3882F6;
+  background-color: rgba(95, 95, 95, 0.182);
   border: none;
   border-radius: 12px;
   gap: 20px;
@@ -219,10 +219,30 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 25px 300px; 
+  padding: 15px 300px; 
   color: white;
   font-size: 20px;
 }
 
+.antistyle {
+  width: 867px;
+  height: 366px;
+  border: none;
+  border-radius: 12px;
+}
+
+.arima1,
+.vinidinho,
+.bionicle,
+.ronaldo {
+  border-radius: 12px;
+  width: 170px;
+  height: 170px;
+  box-sizing: border-box;
+}
+
+.fourthdiv {
+  background-image: url("./images/Grimmsnarl.png");
+}
 
 
