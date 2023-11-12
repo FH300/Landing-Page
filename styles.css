@@ -7,7 +7,7 @@ body {
 }
 
 .colordiv1 {
-  background-color: #1F2937;
+  background-color: #121212;
 }
 
 .header {
@@ -62,14 +62,15 @@ h1 {
 }
 
 .button1 {
-  background-color: #3882F6;
-  border: none;
+  background-color: transparent;
+  box-sizing: border-box;
+  border: solid white;
   border-radius: 6px;
   padding: 10px 40px;
   color: white;
   font-weight: bold;
   font-size: 18px;
-  width: 150px;
+  width: 155px;
 }
 
 .hero1 {
@@ -188,7 +189,7 @@ h1 {
 .call1 {
   font-weight: bold;
   font-size: 25px;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 0;
   margin: 0;
 }
@@ -212,7 +213,7 @@ h1 {
 }
 
 .colordiv3 {
-  background-color: #000000;
+  background-color: #121212;
 }
 
 .footer {
